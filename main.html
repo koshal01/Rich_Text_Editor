@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rich text editor</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="toolbar">
+        <ul class="tool-list">
+            <li class="tool">
+                <button type="button" data-command="justifyLeft" class="tool-btn">
+                    <i class="fa fa-align-left"></i>
+                </button>
+            </li>
+            <li class="tool">
+                <button type="button" data-command="justifyRight" class="tool-btn">
+                    <i class="fa fa-align-right"></i>
+                </button>
+            </li>
+            <li class="tool">
+                <button type="button" data-command="justifyCenter" class="tool-btn">
+                    <i class="fa fa-align-center"></i>
+                </button>
+            </li>
+            <li class="tool">
+                <button type="button" data-command="justifyFull" class="tool-btn">
+                    <i class="fa fa-align-justify"></i>
+                </button>
+            </li>
+            <li class="tool">
+                <button type="button" data-command="bold" class="tool-btn">
+                    <i class="fa fa-bold"></i>
+                </button>
+            </li>
+            <li class="tool">
+                <button type="button" data-command="italic" class="tool-btn">
+                    <i class="fa fa-italic"></i>
+                </button>
+            </li>
+            <li class="tool">
+                <button type="button" data-command="underline" class="tool-btn">
+                    <i class="fa fa-underline"></i>
+                </button>
+            </li>
+            <li class="tool">
+                <button type="button" data-command="insertUnorderedList" class="tool-btn">
+                    <i class="fa fa-list-ul"></i>
+                </button>
+            </li>
+            <li class="tool">
+                <button type="button" data-command="undo" class="tool-btn">
+                    <i class="fa fa-undo"></i>
+                </button>
+            </li>
+            <li class="tool">
+                <button type="button" data-command="fontSize" class="tool-btn">
+                    <i class="fa fa-font"></i>
+                </button>
+            </li>
+        </ul>
+    </div>
+    
+    <div contenteditable="true" id="output"></div>
+</body>
+<script src="main.js"></script>
+</html>

@@ -1,0 +1,29 @@
+body{
+    box-sizing: border-box;
+}
+
+.tool{
+    padding-left: 1px;
+}
+
+.tool-list{
+    display: flex;
+	flex-flow: row nowrap;
+	list-style: none;
+	padding: 0.5rem;
+	margin: 1rem;
+	overflow: hidden;
+	justify-content: center;
+}
+
+.tool-btn{
+    padding: 0.5rem;
+}
+
+#output {
+    background-color: aqua;
+	height: 400px; 
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+	margin: 1rem;
+	padding: 1rem;
+}
